@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header{
+    background-color: rgba(255, 81, 0, 0.952);
+    color: white;
+    overflow: hidden;
+}
+.header > h1 {
+    float: left;
+    padding: 20px 0 20px 60px;
+
+}
+.right-float{
+    float: right;
+    padding: 30px 60px 20px 0;
+}
