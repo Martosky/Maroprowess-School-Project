@@ -28,20 +28,11 @@ img{
     font-size: 18px;
     padding-left: 50px;
 }
-.right-float button{
-        color: white;
-        background: transparent;
-        border: none;
-        font-size: 18px;
-        padding-left: 50px;
+.right-float > a:hover{
+    text-decoration: underline;
+    color: rgb(5, 5, 66);
 }
-.right-float button:hover{
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 80px;
-}
+
 .background{
     clear: both;
     position: relative;
@@ -59,4 +50,36 @@ img{
     height: 500px;
     background-color: rgba(0,0,0, 0.8);
     color: white;
+}
+.inside-body{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    height: auto;
+}
+.left-side{
+    width: 35%;
+    float: left;
+    margin: 0;
+}
+.right-side{
+    width: 35%;
+    float: left;
+    margin: 0;
+}
+span{
+    font-size: 18px;
+    color: burlywood;
+}
+.form-container{
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(255, 115, 0),rgb(8, 8, 61));
+}
+.form-container h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
