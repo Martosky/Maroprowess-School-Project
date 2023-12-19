@@ -185,4 +185,48 @@ span{
     height: auto;
     padding: 20px;
     background-color: rgb(3, 3, 56);
+    overflow: hidden;
+}
+.about-content{
+    width: 80%;
+    height: auto;
+    background-color: rgba(255, 255, 255,);
+    margin: 10px auto;
+}
+.about-content-left{
+    width: 40%;
+    float: left;
+    
+    
+}
+.about-content-left > p{
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    padding: 20px 40px 20px 20px;
+}
+.about-content-left > h3{
+    color: white;
+    text-align: center;
+}
+.about-content-right{
+    width: 40%;
+    float: right;
+    margin-left: 0;
+}
+.about-content-right > h3{
+    color: white;
+    text-align: center;
+}
+.about-content-right > p{
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}.about-content-center{
+    width: 1px;
+    height: 360px;
+    float: left;
+    margin-left: 100px;
+    background-color: rgb(17, 17, 122);
 }
